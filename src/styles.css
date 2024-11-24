@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(https://img.freepik.com/premium-photo/set-flat-icons-movies-movies-related-items_1034475-96434.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),
+    url(https://img.freepik.com/premium-photo/set-flat-icons-movies-movies-related-items_1034475-96434.jpg);
   background-position: center;
   color: hsl(0, 0%, 100%);
 }
@@ -25,7 +26,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-bottom: 20px;
-  margin-inline:auto;
+  margin-inline: auto;
 }
 
 .search-container input[type="text"] {
@@ -110,7 +111,7 @@ body {
   height: 3vh;
   align-items: flex-start;
   justify-content: center;
-  padding: 3px 3px 50px 3px ;
+  padding: 3px 3px 50px 3px;
 }
 
 .movie-info .movie-title {
@@ -120,26 +121,25 @@ body {
 }
 
 .movie-poster-container {
-  background-color:  hsla(234, 100%, 48%, 0.699);
-  border-radius: 60px;
-  padding: 40px;
-  margin: 20px;
-  display: flexbox;
-  float: left;
+  background-color: hsla(234, 100%, 48%, 0.699);
+  border-radius: 0px;
+  padding: 50px;
+  margin: 50px;
+  max-height: 10%;
+  display: inline-flexbox;
+  flex-direction: column;
 }
 
 .movie-info {
-  color:hsl(0, 0%, 100%);
-  border-radius: 20px;
-  background:hsla(191, 100%, 50%, 0.699);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0px;
+  background: hsl(238, 90%, 16%);
   padding: 20px;
-  margin: 10px 10px 10px 0px;
-  /* width:auto;
+  margin-top: 10px;
+  width: auto;
   max-height: 100%;
-  display: flex;
+  display: inline-flexbox;
   flex-direction: column;
-  justify-items: flex-start;*/
-  float: inline-start;
 }
 
 .movie-info button {
@@ -150,7 +150,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width:max-content;
+  width: max-content;
 }
 
 .movie-info button:hover {
